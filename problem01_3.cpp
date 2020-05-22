@@ -1,5 +1,7 @@
 #include <iostream>
-//int BoxVolume(int length, int width = 1, int height = 1); // 디폴트값 지정을 오버로딩으로 바꿔
+//int BoxVolume(int length, int width = 1, int height = 1); // 디폴트값 지정을 오버로딩으로 바꿔봅시다
+//main 은 같음. 
+
 int BoxVolume(int length, int width, int height) {
 	return length * width * height;
 }
